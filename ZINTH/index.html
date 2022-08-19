@@ -6,34 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcela Teles</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     
     <script src="https://kit.fontawesome.com/e301f565b0.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <div id="navbar-container">
-            <h1 class="logo">Marcela Teles</h1>
+            <h1 class="logo">MT</h1>
             <ul id="navbar-items">
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Galeria</li>
+                <li><a href="#showcase">Início</a></li>
+                <li><a href="#clients">Sobre</a></li>
+                <li><a href="#product">Produtos</a></li>
             </ul>
         </div>
     </nav>
     
     <header id="showcase">
         <div id="showcase-container">
-            <h2>Marcela Teles.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eius.</p>
-            <a href="" class="btn"></a>
+            <h2 class="h">Marcela Teles</h2>
+            <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, explicabo!.</p>
+            <a href="" class="btn">Saiba mais</a>
         </div>
     </header>
 
 <!-- About -->
 <section id="clients">
-    <div class="headline">Nossos clientes</div>
-    <div class="clients-container">
+    <div class="headline">Seja Bem-vindo</div>
+    <div id="clients-container">
         <img src="/img/netflix.png" class="client" alt="">
         <img src="/img/google.png" class="client" alt="">
         <img src="/img/apple.png" class="client" alt="">
@@ -43,24 +44,24 @@
     
 </section>
 
-<section class="features">
+<section id="features">
     <div class="headline">O que fazemos</div>
     <div id="features-container">
         <div class="feature">
             <i class="fas fa-tachometer-alt fa-3x"></i>
-            <span class="feature-title"></span>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur id voluptatibus, eius debitis facere!</p>
             
         </div>
         <div class="feature">
             <i class="fas fa-layer-group fa-3x"></i>
-            <span class="feature-title"></span>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur id voluptatibus, eius debitis facere!</p>
             
         </div>
         <div class="feature">
             <i class="fas fa-code fa-3x"></i>
-            <span class="feature-title"></span>
+            <span class="feature-title">Lorem ipsum dolor sit amet.</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur id voluptatibus, eius debitis facere!</p>
             
         </div>
@@ -72,25 +73,25 @@
     <div id="product-container">
         <img src="/img/iphone-x.png" alt="" class="iphone-x">
         <div id="items">
-            <i class="fas fa-map-marked fa-2x color-primary"></i>
+            <i class="fas fa-map-marked fa-3x color-primary"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta pariatur sit non? Aspernatur, vel.</p>
         </div>
         <div id="items">
-            <i class="fa-brands fa-adversal fa-2x color-primary"></i>
+            <i class="fa-brands fa-adversal fa-3x color-primary"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta pariatur sit non? Aspernatur, vel.</p>
         </div>
         <div id="items">
-            <i class="fa-brands fa-salesforce fa-2x color-primary"></i>
+            <i class="fa-brands fa-salesforce fa-3x color-primary"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta pariatur sit non? Aspernatur, vel.</p>
         </div>
         <div id="items">
-            <i class="fa-solid fa-book-open fa-2x color-primary"></i>
+            <i class="fa-solid fa-book-open fa-3x color-primary"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dicta pariatur sit non? Aspernatur, vel.</p>
         </div>
     </div>
 </section>
 
-<div id="testmonials">
+<div id="testimonials">
     <div class="headline">O que acham de mim?</div>
     <div id="testimonials-container">
         <div class="testimonial">
@@ -101,18 +102,28 @@
     </div>
     <div id="testimonials-container">
         <div class="testimonial">
-            <img src="/img/person-2.jpeg" alt="" class="testimonial-image">
+            <img src="/img/abacaxi.jpg" alt="" class="testimonial-image">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum rem hic quos cum non dolores quo eligendi quisquam porro animi.</p>
-
-        </div>
+        </div>    
+        
     </div>
 </div>
 
 <footer id="footer">
     <p>Copyright 2022 - Todos os direitos reservados.</p>
-    <p>Feito por LTecnologia</p>
+    <p>Feito por LTecnologia.</p>
 </footer>
     
+<!-- jquery -->
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+  <!-- script -->
+
+  <script src="js/main.js"></script>
     
 </body>
 </html>
