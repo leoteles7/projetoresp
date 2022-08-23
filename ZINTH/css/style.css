@@ -1,1 +1,234 @@
-@import "https://fonts.googleapis.com/css2?family=Aboreto&family=Righteous&family=Sarala:wght@400;700&display=swap";*{box-sizing:border-box;padding:0;margin:0}body{font-family:'Sarala',cursive}a{text-decoration:none;color:inherit}.iphone-x{width:50vh;height:auto;padding:none}.mt{height:80%}.logo{font-size:2rem}.h{font-family:'Aboreto',cursive;font-size:2.5rem;text-align:center}.h2{font-size:1rem;text-align:center;padding:20px}.btn{display:inline-block;padding:15px 60px;font-size:1.1rem;text-transform:uppercase;background:#eee;color:#000;border-radius:7px;transition:background 500ms ease-in-out}.btn:hover{cursor:pointer;background:#272727;color:#eee}.btn2{display:inline-block;padding:20px 60px;font-size:1rem;text-transform:uppercase;background:#eee;color:#6567d1;border-radius:7px;transition:background 500ms ease-in-out;margin-right:30px;line-height:100%}.btn2:hover{cursor:pointer;background:#6567d1;color:#eee}.headline{font-family:'Sarala',cursive;font-size:2.2rem;text-transform:uppercase;font-weight:700;text-align:center;padding-bottom:50px;letter-spacing:2px}#navbar{width:100%;background:#eee;color:#333;height:110px;position:fixed}#navbar-container{width:80%;height:100%;margin:auto;display:flex;justify-content:space-between;align-items:center}#navbar-items{display:flex;list-style:none;text-transform:uppercase}#navbar-items li{padding:10px}#showcase{height:100vh;display:flex;justify-content:center;align-items:center;color:#eee;background:url(/img/nutri.png) no-repeat center center/cover;background-color:rgba(0,0,0,0.3);background-blend-mode:color}#showcase-container{text-align:center}#testimonials .headline{color:#eee}#clients{width:100%;background:#eee;color:#111;padding:70px}#clients-container{display:grid;grid-template-columns:repeat(4,1fr);justify-items:center;padding:15px}.client{display:inline-block;width:25%}#features{width:100%;background:#a1aadd;color:#eee;padding:50px}#features-container{width:100%;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);grid-column-gap:50px}.feature{display:flex;flex-direction:column;background:#fff;padding:20px;border-radius:8px;box-shadow:6px 5px 5px #333;height:500px;justify-content:center;color:#6e6a96}.feature-title{font-size:1.5rem;font-weight:700}#product{width:100%;padding:70px}#product-container{display:flex;justify-content:center;align-items:center}#items{width:650px}#items .item{display:flex;padding:10px;margin:15px 0;font-size:1.2rem}.testimonial{display:flex;align-items:center;font-size:1.2rem;background:#e7e6f7;padding:15px;margin:15px 0;border-radius:12px}#testimonials{width:100%;background:#a1aadd;color:#6e6a96;padding:50px}#testimonials-container{width:80%;margin:auto;display:flex;align-items:center;flex-direction:column}.testimonial .testimonial-image{height:200px;width:auto;border-radius:50%;margin:10px 40px;box-shadow:0 0 1em #e6e6e6}#footer{background:#eee;color:#222;text-align:center;padding:30px}
+@import "https://fonts.googleapis.com/css2?family=Aboreto&family=Righteous&family=Sarala:wght@400;700&display=swap";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Sarala", cursive;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.iphone-x {
+  width: 50vh;
+  height: auto;
+  padding: none;
+}
+
+.abacaxi {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mt {
+  height: 80%;
+}
+.logo {
+  font-size: 2rem;
+}
+.h {
+  font-family: "Aboreto", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.h2 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 60px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: #eee;
+  color: #000;
+  border-radius: 7px;
+  transition: background 500ms ease-in-out;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #272727;
+  color: #eee;
+}
+.btn2 {
+  display: inline-block;
+  padding: 20px 60px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #eee;
+  color: #6567d1;
+  border-radius: 7px;
+  transition: background 500ms ease-in-out;
+  margin-right: 30px;
+  line-height: 100%;
+}
+.btn2:hover {
+  cursor: pointer;
+  background: #6567d1;
+  color: #eee;
+}
+.headline {
+  font-family: 'ABHAYA LIBRE REGULAR';
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+#navbar {
+  width: 100%;
+  background: #eee;
+  color: #333;
+  height: 110px;
+  position: fixed;
+}
+#navbar-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar-items {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+#navbar-items li {
+  padding: 10px;
+}
+#showcase {
+  height: 80vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #eee;
+  background: url(/img/nutri.png) no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: color;
+}
+#showcase-container {
+  text-align: left;
+  padding: 80px;
+}
+#testimonials .headline {
+  color: #eee;
+}
+
+#clients {
+  width: 100%;
+  background: #eee;
+  color: #111;
+  padding: 70px;
+}
+
+#clients-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding: 15px;
+}
+
+.client {
+  display: inline-block;
+  width: 25%;
+}
+
+#features {
+  width: 100%;
+  background: #657d94;
+  color: #eee;
+  padding: 50px;
+ 
+
+}
+
+#features-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  
+}
+
+.feature {
+  display: grid;
+  flex-direction: row;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 5px #333;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  color: #68869a;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+#product {
+  width: 100%;
+  padding: 70px;
+}
+#product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#items {
+  width: 650px;
+}
+#items .item {
+  display: flex;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+.testimonial {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  background: #e7e6f7;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+#testimonials {
+  width: 100%;
+  background: #a1aadd;
+  color: #6e6a96;
+  padding: 50px;
+}
+#testimonials-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonial .testimonial-image {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  margin: 10px 40px;
+  box-shadow: 0 0 1em #e6e6e6;
+}
+#footer {
+  background: #eee;
+  color: #222;
+  text-align: center;
+  padding: 30px;
+}
+
+#footer .client {
+    width: 8vh;
+}
